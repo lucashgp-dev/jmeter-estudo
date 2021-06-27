@@ -1,0 +1,433 @@
+2021-06-25 13:16:25,938 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
+2021-06-25 13:16:25,971 INFO o.a.j.JMeter: Loading user properties from: /home/lucas/ApacheJMeter/bin/user.properties
+2021-06-25 13:16:25,971 INFO o.a.j.JMeter: Loading system properties from: /home/lucas/ApacheJMeter/bin/system.properties
+2021-06-25 13:16:25,977 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: Version 5.4.1
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: java.version=11.0.11
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: os.name=Linux
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: os.arch=amd64
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: os.version=5.8.0-59-generic
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: java.awt.headless=true
+2021-06-25 13:16:25,978 INFO o.a.j.JMeter: Max memory     =4198498304
+2021-06-25 13:16:25,979 INFO o.a.j.JMeter: Available Processors =12
+2021-06-25 13:16:25,987 INFO o.a.j.JMeter: Default Locale=português (Brasil)
+2021-06-25 13:16:25,987 INFO o.a.j.JMeter: JMeter  Locale=português (Brasil)
+2021-06-25 13:16:25,987 INFO o.a.j.JMeter: JMeterHome=/home/lucas/ApacheJMeter
+2021-06-25 13:16:25,987 INFO o.a.j.JMeter: user.dir  =/home/lucas/Documentos/testes/5-linha-de-comando
+2021-06-25 13:16:25,987 INFO o.a.j.JMeter: PWD       =/home/lucas/Documentos/testes/5-linha-de-comando
+2021-06-25 13:16:26,097 INFO o.a.j.JMeter: IP: 192.168.0.107 Name: ubuntu FullName: ubuntu
+2021-06-25 13:16:26,103 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/lucas/Documentos/testes/5-linha-de-comando/dashboard'
+2021-06-25 13:16:26,106 INFO o.a.j.s.FileServer: Default base='/home/lucas/Documentos/testes/5-linha-de-comando'
+2021-06-25 13:16:26,107 INFO o.a.j.s.FileServer: Set new base='/home/lucas/Documentos/testes/5-linha-de-comando'
+2021-06-25 13:16:26,280 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-06-25 13:16:26,310 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-06-25 13:16:26,315 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-06-25 13:16:26,321 INFO o.a.j.s.SaveService: Loading file: teste.jmx
+2021-06-25 13:16:26,379 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-25 13:16:26,380 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-25 13:16:26,380 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-25 13:16:26,380 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-25 13:16:26,380 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-06-25 13:16:26,380 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-06-25 13:16:26,405 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-06-25 13:16:26,409 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-06-25 13:16:26,409 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: resultado.jtl
+2021-06-25 13:16:26,410 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/lucas/ApacheJMeter/bin/reportgenerator.properties
+2021-06-25 13:16:26,410 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-06-25 13:16:26,415 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-06-25 13:16:26,418 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-06-25 13:16:26,418 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-06-25 13:16:26,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-06-25 13:16:26,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-06-25 13:16:26,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-06-25 13:16:26,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-06-25 13:16:26,419 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-06-25 13:16:26,427 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-06-25 13:16:26,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,433 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,433 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-06-25 13:16:26,434 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-06-25 13:16:26,434 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-06-25 13:16:26,435 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-06-25 13:16:26,435 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-06-25 13:16:26,435 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-06-25 13:16:26,435 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-06-25 13:16:26,442 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-25 13:16:26,443 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-25 13:16:26,443 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-25 13:16:26,452 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-06-25 13:16:26,452 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-06-25 13:16:26,731 INFO o.a.j.JMeter: Testes executando (1624637786731)
+2021-06-25 13:16:26,759 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Grupo de Usuários
+2021-06-25 13:16:26,760 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Grupo de Usuários.
+2021-06-25 13:16:26,760 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-25 13:16:26,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 delayedStart=false
+2021-06-25 13:16:26,772 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-1
+2021-06-25 13:16:26,777 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-2
+2021-06-25 13:16:26,786 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-3
+2021-06-25 13:16:26,796 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-4
+2021-06-25 13:16:26,799 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ubuntu
+2021-06-25 13:16:26,805 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-5
+2021-06-25 13:16:26,807 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-06-25 13:16:26,809 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-06-25 13:16:26,810 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-06-25 13:16:26,810 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-06-25 13:16:26,810 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-06-25 13:16:26,814 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-25 13:16:26,813 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-6
+2021-06-25 13:16:26,814 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-25 13:16:26,822 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-7
+2021-06-25 13:16:26,832 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-8
+2021-06-25 13:16:26,842 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-9
+2021-06-25 13:16:26,851 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-10
+2021-06-25 13:16:26,861 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-11
+2021-06-25 13:16:26,871 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-12
+2021-06-25 13:16:26,882 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-13
+2021-06-25 13:16:26,892 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-14
+2021-06-25 13:16:26,902 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-15
+2021-06-25 13:16:26,912 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-16
+2021-06-25 13:16:26,921 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-17
+2021-06-25 13:16:26,931 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-18
+2021-06-25 13:16:26,942 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-19
+2021-06-25 13:16:26,950 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-20
+2021-06-25 13:16:26,964 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-21
+2021-06-25 13:16:26,971 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-22
+2021-06-25 13:16:26,981 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-23
+2021-06-25 13:16:26,990 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-24
+2021-06-25 13:16:27,004 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-25
+2021-06-25 13:16:27,011 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-26
+2021-06-25 13:16:27,016 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-06-25 13:16:27,023 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-27
+2021-06-25 13:16:27,023 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-06-25 13:16:27,023 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-06-25 13:16:27,031 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-28
+2021-06-25 13:16:27,040 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-29
+2021-06-25 13:16:27,051 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-30
+2021-06-25 13:16:27,061 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-31
+2021-06-25 13:16:27,070 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-32
+2021-06-25 13:16:27,081 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-33
+2021-06-25 13:16:27,091 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-34
+2021-06-25 13:16:27,100 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-35
+2021-06-25 13:16:27,111 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-36
+2021-06-25 13:16:27,121 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-37
+2021-06-25 13:16:27,130 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-38
+2021-06-25 13:16:27,141 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-39
+2021-06-25 13:16:27,151 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-40
+2021-06-25 13:16:27,160 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-41
+2021-06-25 13:16:27,171 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-42
+2021-06-25 13:16:27,181 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-06-25 13:16:27,181 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-43
+2021-06-25 13:16:27,184 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-06-25 13:16:27,184 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-06-25 13:16:27,191 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-44
+2021-06-25 13:16:27,201 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-45
+2021-06-25 13:16:27,210 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-46
+2021-06-25 13:16:27,227 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-47
+2021-06-25 13:16:27,231 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-48
+2021-06-25 13:16:27,240 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-49
+2021-06-25 13:16:27,250 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-50
+2021-06-25 13:16:27,261 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-51
+2021-06-25 13:16:27,271 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-52
+2021-06-25 13:16:27,280 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-53
+2021-06-25 13:16:27,290 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-54
+2021-06-25 13:16:27,303 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-55
+2021-06-25 13:16:27,320 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-57
+2021-06-25 13:16:27,311 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-56
+2021-06-25 13:16:27,331 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-58
+2021-06-25 13:16:27,341 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-59
+2021-06-25 13:16:27,351 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-60
+2021-06-25 13:16:27,360 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-61
+2021-06-25 13:16:27,381 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-63
+2021-06-25 13:16:27,381 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-62
+2021-06-25 13:16:27,394 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-64
+2021-06-25 13:16:27,400 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-65
+2021-06-25 13:16:27,411 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-66
+2021-06-25 13:16:27,422 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-67
+2021-06-25 13:16:27,430 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-68
+2021-06-25 13:16:27,441 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-69
+2021-06-25 13:16:27,454 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-70
+2021-06-25 13:16:27,460 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-71
+2021-06-25 13:16:27,481 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-73
+2021-06-25 13:16:27,491 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-74
+2021-06-25 13:16:27,499 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-72
+2021-06-25 13:16:27,507 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-75
+2021-06-25 13:16:27,521 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-77
+2021-06-25 13:16:27,530 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-78
+2021-06-25 13:16:27,551 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-80
+2021-06-25 13:16:27,562 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-81
+2021-06-25 13:16:27,571 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-82
+2021-06-25 13:16:27,580 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-83
+2021-06-25 13:16:27,581 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-79
+2021-06-25 13:16:27,594 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-84
+2021-06-25 13:16:27,601 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-85
+2021-06-25 13:16:27,621 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-87
+2021-06-25 13:16:27,630 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-88
+2021-06-25 13:16:27,640 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-89
+2021-06-25 13:16:27,653 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-90
+2021-06-25 13:16:27,662 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-91
+2021-06-25 13:16:27,671 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-92
+2021-06-25 13:16:27,681 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-93
+2021-06-25 13:16:27,691 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-94
+2021-06-25 13:16:27,701 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-95
+2021-06-25 13:16:27,702 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-86
+2021-06-25 13:16:27,711 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-96
+2021-06-25 13:16:27,720 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-97
+2021-06-25 13:16:27,731 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-98
+2021-06-25 13:16:27,748 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-99
+2021-06-25 13:16:27,751 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-100
+2021-06-25 13:16:27,822 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Usuários 1-76
+2021-06-25 13:16:30,162 INFO o.a.j.r.Summariser: summary +      4 in 00:00:03 =    1,2/s Avg:  2599 Min:  2087 Max:  3155 Err:     0 (0,00%) Active: 100 Started: 100 Finished: 0
+2021-06-25 13:16:30,888 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-61
+2021-06-25 13:16:30,888 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-61
+2021-06-25 13:16:30,914 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-65
+2021-06-25 13:16:30,914 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-65
+2021-06-25 13:16:31,060 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-25
+2021-06-25 13:16:31,060 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-25
+2021-06-25 13:16:31,132 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-19
+2021-06-25 13:16:31,132 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-19
+2021-06-25 13:16:31,144 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-44
+2021-06-25 13:16:31,144 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-44
+2021-06-25 13:16:31,170 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-32
+2021-06-25 13:16:31,170 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-32
+2021-06-25 13:16:31,171 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-1
+2021-06-25 13:16:31,171 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-1
+2021-06-25 13:16:31,190 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-59
+2021-06-25 13:16:31,190 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-59
+2021-06-25 13:16:31,446 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-57
+2021-06-25 13:16:31,446 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-57
+2021-06-25 13:16:31,457 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-20
+2021-06-25 13:16:31,457 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-20
+2021-06-25 13:16:31,491 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-16
+2021-06-25 13:16:31,491 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-16
+2021-06-25 13:16:31,519 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-5
+2021-06-25 13:16:31,519 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-5
+2021-06-25 13:16:31,575 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-76
+2021-06-25 13:16:31,575 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-76
+2021-06-25 13:16:31,601 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-17
+2021-06-25 13:16:31,601 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-17
+2021-06-25 13:16:31,604 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-14
+2021-06-25 13:16:31,604 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-14
+2021-06-25 13:16:31,624 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-42
+2021-06-25 13:16:31,624 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-42
+2021-06-25 13:16:31,675 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-77
+2021-06-25 13:16:31,676 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-77
+2021-06-25 13:16:31,688 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-94
+2021-06-25 13:16:31,688 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-94
+2021-06-25 13:16:31,689 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-26
+2021-06-25 13:16:31,689 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-26
+2021-06-25 13:16:31,704 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-80
+2021-06-25 13:16:31,704 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-80
+2021-06-25 13:16:31,726 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-10
+2021-06-25 13:16:31,726 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-10
+2021-06-25 13:16:31,789 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-21
+2021-06-25 13:16:31,790 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-21
+2021-06-25 13:16:31,809 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-90
+2021-06-25 13:16:31,809 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-90
+2021-06-25 13:16:31,860 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-51
+2021-06-25 13:16:31,860 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-51
+2021-06-25 13:16:31,915 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-60
+2021-06-25 13:16:31,915 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-60
+2021-06-25 13:16:31,951 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-38
+2021-06-25 13:16:31,951 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-38
+2021-06-25 13:16:31,981 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-9
+2021-06-25 13:16:31,981 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-9
+2021-06-25 13:16:32,006 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-52
+2021-06-25 13:16:32,007 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-52
+2021-06-25 13:16:32,007 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-64
+2021-06-25 13:16:32,007 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-64
+2021-06-25 13:16:32,014 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-7
+2021-06-25 13:16:32,014 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-7
+2021-06-25 13:16:32,037 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-78
+2021-06-25 13:16:32,037 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-78
+2021-06-25 13:16:32,037 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-83
+2021-06-25 13:16:32,037 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-83
+2021-06-25 13:16:32,105 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-8
+2021-06-25 13:16:32,106 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-8
+2021-06-25 13:16:32,109 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-39
+2021-06-25 13:16:32,110 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-39
+2021-06-25 13:16:32,122 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-96
+2021-06-25 13:16:32,122 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-96
+2021-06-25 13:16:32,161 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-84
+2021-06-25 13:16:32,161 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-84
+2021-06-25 13:16:32,273 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-82
+2021-06-25 13:16:32,273 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-82
+2021-06-25 13:16:32,275 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-40
+2021-06-25 13:16:32,275 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-40
+2021-06-25 13:16:32,285 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-43
+2021-06-25 13:16:32,285 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-43
+2021-06-25 13:16:32,287 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-54
+2021-06-25 13:16:32,287 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-54
+2021-06-25 13:16:32,364 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-29
+2021-06-25 13:16:32,365 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-29
+2021-06-25 13:16:32,372 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-89
+2021-06-25 13:16:32,373 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-89
+2021-06-25 13:16:32,402 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-2
+2021-06-25 13:16:32,402 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-2
+2021-06-25 13:16:32,413 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-88
+2021-06-25 13:16:32,413 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-88
+2021-06-25 13:16:32,443 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-72
+2021-06-25 13:16:32,444 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-72
+2021-06-25 13:16:32,444 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-55
+2021-06-25 13:16:32,445 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-55
+2021-06-25 13:16:32,466 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-18
+2021-06-25 13:16:32,466 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-18
+2021-06-25 13:16:32,490 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-3
+2021-06-25 13:16:32,491 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-3
+2021-06-25 13:16:32,524 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-71
+2021-06-25 13:16:32,525 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-71
+2021-06-25 13:16:32,559 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-50
+2021-06-25 13:16:32,559 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-50
+2021-06-25 13:16:32,563 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-22
+2021-06-25 13:16:32,563 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-22
+2021-06-25 13:16:32,579 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-69
+2021-06-25 13:16:32,579 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-69
+2021-06-25 13:16:32,597 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-53
+2021-06-25 13:16:32,597 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-53
+2021-06-25 13:16:32,611 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-37
+2021-06-25 13:16:32,611 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-37
+2021-06-25 13:16:32,644 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-74
+2021-06-25 13:16:32,644 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-74
+2021-06-25 13:16:32,668 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-49
+2021-06-25 13:16:32,675 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-49
+2021-06-25 13:16:32,675 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-68
+2021-06-25 13:16:32,675 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-68
+2021-06-25 13:16:32,685 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-58
+2021-06-25 13:16:32,685 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-58
+2021-06-25 13:16:32,687 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-56
+2021-06-25 13:16:32,688 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-56
+2021-06-25 13:16:32,695 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-81
+2021-06-25 13:16:32,696 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-81
+2021-06-25 13:16:32,718 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-67
+2021-06-25 13:16:32,719 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-67
+2021-06-25 13:16:32,733 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-73
+2021-06-25 13:16:32,734 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-73
+2021-06-25 13:16:32,806 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-23
+2021-06-25 13:16:32,806 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-23
+2021-06-25 13:16:32,838 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-30
+2021-06-25 13:16:32,838 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-30
+2021-06-25 13:16:32,861 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-98
+2021-06-25 13:16:32,861 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-98
+2021-06-25 13:16:32,882 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-4
+2021-06-25 13:16:32,882 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-4
+2021-06-25 13:16:32,894 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-99
+2021-06-25 13:16:32,895 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-99
+2021-06-25 13:16:32,909 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-36
+2021-06-25 13:16:32,909 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-36
+2021-06-25 13:16:32,919 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-91
+2021-06-25 13:16:32,919 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-91
+2021-06-25 13:16:32,961 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-45
+2021-06-25 13:16:32,961 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-45
+2021-06-25 13:16:32,974 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-27
+2021-06-25 13:16:32,975 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-27
+2021-06-25 13:16:32,975 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-92
+2021-06-25 13:16:32,975 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-92
+2021-06-25 13:16:32,991 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-87
+2021-06-25 13:16:32,991 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-87
+2021-06-25 13:16:33,007 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-79
+2021-06-25 13:16:33,007 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-79
+2021-06-25 13:16:33,008 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-86
+2021-06-25 13:16:33,008 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-86
+2021-06-25 13:16:33,015 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-35
+2021-06-25 13:16:33,015 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-35
+2021-06-25 13:16:33,027 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-93
+2021-06-25 13:16:33,027 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-93
+2021-06-25 13:16:33,034 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-48
+2021-06-25 13:16:33,035 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-48
+2021-06-25 13:16:33,035 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-95
+2021-06-25 13:16:33,035 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-95
+2021-06-25 13:16:33,041 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-100
+2021-06-25 13:16:33,041 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-100
+2021-06-25 13:16:33,073 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-31
+2021-06-25 13:16:33,073 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-31
+2021-06-25 13:16:33,078 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-13
+2021-06-25 13:16:33,078 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-24
+2021-06-25 13:16:33,078 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-13
+2021-06-25 13:16:33,078 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-24
+2021-06-25 13:16:33,088 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-34
+2021-06-25 13:16:33,088 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-34
+2021-06-25 13:16:33,102 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-12
+2021-06-25 13:16:33,102 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-12
+2021-06-25 13:16:33,134 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-46
+2021-06-25 13:16:33,134 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-46
+2021-06-25 13:16:33,175 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-97
+2021-06-25 13:16:33,175 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-97
+2021-06-25 13:16:33,186 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-63
+2021-06-25 13:16:33,186 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-63
+2021-06-25 13:16:33,237 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-75
+2021-06-25 13:16:33,237 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-75
+2021-06-25 13:16:33,247 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-70
+2021-06-25 13:16:33,247 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-70
+2021-06-25 13:16:33,282 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-85
+2021-06-25 13:16:33,282 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-85
+2021-06-25 13:16:33,308 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-66
+2021-06-25 13:16:33,308 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-66
+2021-06-25 13:16:33,338 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-47
+2021-06-25 13:16:33,338 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-41
+2021-06-25 13:16:33,338 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-47
+2021-06-25 13:16:33,338 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-41
+2021-06-25 13:16:33,350 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-33
+2021-06-25 13:16:33,350 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-33
+2021-06-25 13:16:33,351 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-62
+2021-06-25 13:16:33,351 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-62
+2021-06-25 13:16:33,365 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-15
+2021-06-25 13:16:33,365 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-15
+2021-06-25 13:16:33,968 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-28
+2021-06-25 13:16:33,969 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-28
+2021-06-25 13:16:34,036 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-6
+2021-06-25 13:16:34,036 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-6
+2021-06-25 13:16:34,131 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Usuários 1-11
+2021-06-25 13:16:34,132 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Usuários 1-11
+2021-06-25 13:16:34,132 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-25 13:16:34,134 INFO o.a.j.r.Summariser: summary +    196 in 00:00:04 =   49,3/s Avg:  2583 Min:   691 Max:  5708 Err:     0 (0,00%) Active: 0 Started: 100 Finished: 100
+2021-06-25 13:16:34,134 INFO o.a.j.r.Summariser: summary =    200 in 00:00:07 =   27,0/s Avg:  2584 Min:   691 Max:  5708 Err:     0 (0,00%)
+2021-06-25 13:16:34,135 INFO o.a.j.JMeter: Generating Dashboard
+2021-06-25 13:16:34,135 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-06-25 13:16:34,149 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-06-25 13:16:34,245 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-06-25 13:16:34,245 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-06-25 13:16:34,247 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-06-25 13:16:34,247 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-06-25 13:16:34,251 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-06-25 13:16:34,252 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-06-25 13:16:34,252 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-06-25 13:16:34,252 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-06-25 13:16:34,264 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-06-25 13:16:34,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-06-25 13:16:34,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-06-25 13:16:34,265 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-06-25 13:16:34,272 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-06-25 13:16:34,272 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1400 samples
+2021-06-25 13:16:34,272 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-06-25 13:16:34,272 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-06-25 13:16:34,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-06-25 13:16:34,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-06-25 13:16:34,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-06-25 13:16:34,274 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-06-25 13:16:34,277 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3000 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 600 samples
+2021-06-25 13:16:34,278 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 200 samples
+2021-06-25 13:16:34,279 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 200 samples produced in 107ms on channel 0
+2021-06-25 13:16:34,279 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-06-25 13:16:34,395 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-06-25 13:16:34,395 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-06-25 13:16:34,395 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-06-25 13:16:34,396 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-06-25 13:16:34,396 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/lucas/Documentos/testes/5-linha-de-comando/dashboard/statistics.json
+2021-06-25 13:16:34,434 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-06-25 13:16:34,437 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/lucas/Documentos/testes/5-linha-de-comando/dashboard
+2021-06-25 13:16:34,547 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/lucas/Documentos/testes/5-linha-de-comando/dashboard, creating folder structure
+2021-06-25 13:16:34,550 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/home/lucas/ApacheJMeter/bin/report-template' to '/home/lucas/Documentos/testes/5-linha-de-comando/dashboard', got message: /home/lucas/Documentos/testes/5-linha-de-comando/dashboard, found non empty folder with following content [/home/lucas/Documentos/testes/5-linha-de-comando/dashboard/statistics.json], will be ignored
+2021-06-25 13:16:34,817 INFO o.a.j.JMeter: Dashboard generated

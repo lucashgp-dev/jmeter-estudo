@@ -1,0 +1,50 @@
+{
+  "Requisição HTTP - Correios" : {
+    "transaction" : "Requisição HTTP - Correios",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1095.0200000000004,
+    "medianResTime" : 1041.0,
+    "minResTime" : 691.0,
+    "maxResTime" : 2256.0,
+    "pct1ResTime" : 1650.5000000000002,
+    "pct2ResTime" : 1979.4499999999994,
+    "pct3ResTime" : 2254.419999999999,
+    "throughput" : 19.619383951343927,
+    "receivedKBytesPerSec" : 1975.1194023445162,
+    "sentKBytesPerSec" : 2.337465666078085
+  },
+  "Requisição HTTP - Gov" : {
+    "transaction" : "Requisição HTTP - Gov",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 4073.2,
+    "medianResTime" : 4054.0,
+    "minResTime" : 2087.0,
+    "maxResTime" : 5708.0,
+    "pct1ResTime" : 5225.2,
+    "pct2ResTime" : 5438.549999999999,
+    "pct3ResTime" : 5706.259999999999,
+    "throughput" : 17.497812773403325,
+    "receivedKBytesPerSec" : 2651.308576662292,
+    "sentKBytesPerSec" : 2.0163495188101486
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 2584.1099999999997,
+    "medianResTime" : 2177.0,
+    "minResTime" : 691.0,
+    "maxResTime" : 5708.0,
+    "pct1ResTime" : 5001.6,
+    "pct2ResTime" : 5225.6,
+    "pct3ResTime" : 5533.68,
+    "throughput" : 27.77392028884877,
+    "receivedKBytesPerSec" : 3502.2097082870437,
+    "sentKBytesPerSec" : 3.2547562838494657
+  }
+}
